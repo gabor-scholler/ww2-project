@@ -14,4 +14,4 @@ to learn about this time, I thought I'd give it a try and make one myself :)
 - [ ] Quizzes
 - [ ] Encyclopedia
 
-[<img src="https://www.braypando.com/storage/website-button.png" width="130"/>](https://worldwar2.gq/)
+[<img src="https://www.braypando.com/storage/website-button.png" width="130"/>](https://world-war-2.gaborscholler.repl.co/)
