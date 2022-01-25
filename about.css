@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron&display=swap');
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+		color: white;
+}
+
+body, html {
+  height: 100%;
+}
+
+iframe {
+	height: 400px;
+	align-content: center;
+}
+
+button {
+	width: 100px;
+	outline: none;
+	border: none;
+	padding: 10px;
+	align-content: center;
+	text-align: center;
+	display: table;
+	margin: 0 auto
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+.content {
+	filter: none;
+	width: 70%;
+	margin-left: 20%;
+	align-items: center;  
+}
+
+.pagetitle {
+	font-family: 'Arvo', serif;
+	text-align: center;
+	color: white;
+	margin-top: 15%;
+	padding-top: 10px;
+}
+
+.active {
+	padding: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin: 5px;
+	font-family: 'Bebas Neue', cursive;
+	border: solid 1px #8c8c8c;
+	border-radius: 2px;
+	background-color: #8c8c8c;
+}
+
+nav {
+	background-color: #282828;
+	box-shadow: 0 10px 10px -10px rgba(0,0,0,.8);
+}
+
+.navi-left {
+	margin-left: 50px;
+}
+
+li {
+	padding: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin: 5px;
+	font-family: 'Bebas Neue', cursive;
+	border: solid 1px #adadad;
+	border-radius: 2px;
+}
+
+.description {
+	color: white;
+	font-family: 'Arvo', serif;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 15px;
+}
+
+#title {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 35px;
+	color: white;
+}
+
+
+a {
+	color: white;
+}
+
+@media (max-width: 767px) {
+
+	li {
+		width: 90px;
+		font-family: 'Bebas Neue', cursive;
+		text-align: center;
+	}
+
+	.pagetitle {
+		margin-top: 5%;
+	}
+
+	.content {
+		width: 70%;
+		margin-left: 15%;
+	}
+
+	.navi-left {
+		margin-left: 0px;
+		margin-top: 10px;
+	}
+
+	.description {
+		padding-left: 10%;
+		padding-right: 10%;
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 480px) {
+
+	li {
+		width: 90px;
+		font-family: 'Bebas Neue', cursive;
+		text-align: center;
+	}
+
+	.pagetitle {
+		margin-top: 5%;
+	}
+
+	.content {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	.navi-left {
+		margin-left: 0px;
+		margin-top: 10px;
+	}
+
+	.description {
+		padding-left: 10%;
+		padding-right: 10%;
+		font-size: 12px;
+	}
+}
